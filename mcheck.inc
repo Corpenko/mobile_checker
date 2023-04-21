@@ -63,7 +63,7 @@ static const m_structure_authkeys[][E_CLIENT_STRUCTURE] = {
 
 public OnGameModeInit(Args)
 {
-    printf("Mobile checker:\nХешей клиентов загружено: \t%d\n", sizeof(m_structure_authkeys));
+    printf("Mobile checker:\nРҐРµС€РµР№ РєР»РёРµРЅС‚РѕРІ Р·Р°РіСЂСѓР¶РµРЅРѕ: \t%d\n", sizeof(m_structure_authkeys));
     #if defined MC_OnGameModeInit
         return MC_OnGameModeInit();
     #else
